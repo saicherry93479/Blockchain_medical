@@ -1,0 +1,87 @@
+.patientDetailsBox{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    
+}
+
+.patientBoxOne{
+    
+    /* background-color: red; */
+    border-bottom: 2px solid rgb(240, 238, 238);
+}
+#inputTag{
+    display: none;
+}
+.inputButtonDiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: baseline; */
+    /* background-color: red; */
+    width: fit-content;
+
+}
+
+.inputButton{
+    cursor: pointer;
+    /* margin-left: auto; */
+    padding: 8px 16px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    /* margin-top: 20px; */
+}
+.recordInputHaeder{
+    margin: 30px 0px;
+    font-size: 18px;
+    color: rgb(168, 167, 167);
+    font-weight: bold;
+}
+
+.leftBackButton{
+    height: 30px;
+    padding: 8px;
+    width: 30px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: var(--mainColor--);
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.uploadClass{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+}
+.recordButton{
+    cursor: pointer;
+    /* margin-left: auto; */
+    padding: 8px 16px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    
+}
+.recordButton>p{
+    color: white;
+}
+.recordError{
+    color:red;
+    font-size: 14px;
+    /* margin-left: auto;
+     */
+     text-align: right;
+    
+
+    margin:10px 0px;
+}

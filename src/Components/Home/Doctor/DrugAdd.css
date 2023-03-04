@@ -1,0 +1,30 @@
+.drugAdd{
+    display: flex;
+    /* justify-content: space-between;
+     */
+     gap: 30px;
+     align-items: center;
+}
+.textRecord{
+    margin: 10px 0px;
+}
+.textRecordInput{
+    outline: none;
+    border:1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+.drugHeaders{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.drugHeaders>p{
+    width: 200px;
+    /* background-color: red; */
+
+}
+/* .drugHeaders>p:nth-child(2){
+    width: 350px;
+
+} */

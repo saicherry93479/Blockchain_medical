@@ -1,0 +1,52 @@
+.doctorDetails{
+    box-shadow: rgb(0 0 0 / 8%) 0px 5px 16px;
+    border-radius: 8px;
+    padding:0px 5px;
+}
+.doctorItem{
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    height: 60px;
+    border-bottom: 2px solid rgb(243, 241, 241);
+}
+
+.p1{
+    flex-basis: 20%;
+}
+.p2{
+    flex-basis: 50%;
+    /* background-color: green; */
+}
+.p3{
+    flex-basis: 14%;
+    text-align:center
+}
+.p4{
+    flex-basis: 8%;
+    text-align:center
+    
+}
+.p5{
+    flex-basis: 8%;
+    text-align:center
+}
+.extraItem >p{
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+    letter-spacing: 1.2px;
+}
+.nextButton{
+    /* background-color: var(--mainColor--); */
+    background-color: white;
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 16px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,20 @@
+:root {
+  --mainColor--:#3770ff
+  /* --mainFont--:'Nunito', sans-serif; */
+  
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: 'Nunito', sans-serif;;
+  /* background-color: var(--mainColor--); */
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

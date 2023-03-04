@@ -1,0 +1,32 @@
+.metaMask{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metaMaskCard{
+    /* height: 240px; */
+    display: flex;
+    align-items: center;
+}
+.metaMaskImage{
+    width:40%;
+    align-self: center;
+}
+.metaMaskButton{
+    border: none;
+    outline: none;
+    background-color: var(--mainColor--);
+    padding: 16px 27px;
+    border-radius: 28px;
+    min-width: 80%;
+    align-self: center;
+    cursor: pointer;
+}
+.metaMaskButton>p{
+   
+
+    color: white;
+    letter-spacing: 1.2px;
+}

@@ -1,0 +1,31 @@
+.p21{
+    flex-basis: 15%;
+
+}
+.p23{
+    flex-basis: 20%;
+}
+.p24{
+    flex-basis: 50%
+}
+.p25{
+    flex-basis: 15%;
+    text-align: center;
+    /* justify-self: center; */
+}
+.d25{
+    width: 15px;
+    height: 15px;
+    margin: 0px auto;
+    cursor: pointer;
+
+}
+.fP{
+    font-size: 16px;
+    color:black;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.extraPatientRecord{
+    padding: 0px 20px;
+}

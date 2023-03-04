@@ -1,0 +1,85 @@
+.t1{
+    flex-basis: 25%;
+
+}
+.t3{
+    flex-basis: 50%;
+
+}
+
+.t5{
+    flex-basis: 25%;
+    text-align: center;
+
+}
+
+.b5{
+    width: 40%;
+    /* flex-basis: 25%; */
+    background-color: blueviolet;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+.b5>p{
+    color: rgb(174, 169, 169);
+    
+}
+.recordMedicine{
+    display: flex;
+    /* margin: 50px 0px; */
+    margin-top: 30px;
+    align-items: center;
+    /* background-color: red; */
+
+}
+.recordLeft{
+    flex-basis: 100%;
+    background-color: rgb(58, 60, 176);
+    
+}
+.medicineTable{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 2px solid rgb(210, 207, 207);
+    
+}
+.medicineTable>p:nth-child(1){
+    flex-basis: 40%;
+    /* background-color: yellow; */
+}
+.medicineTable>p:nth-child(2){
+    flex-basis: 18%;
+    text-align: center;
+}
+.medicineTable>p:nth-child(3){
+    flex-basis: 17%;
+    /* background-color: blue; */
+    text-align: center;
+}
+.medicineTable>p:nth-child(4){
+    flex-basis: 25%;
+    /* background-color: blue; */
+    text-align: center;
+}
+.extraTable>p{
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+
+}
+
+
+.extraLocation{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}

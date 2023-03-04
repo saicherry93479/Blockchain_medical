@@ -1,0 +1,11 @@
+.book{
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor--);
+    color:rgb(218, 217, 217);
+    cursor: pointer;
+    
+}

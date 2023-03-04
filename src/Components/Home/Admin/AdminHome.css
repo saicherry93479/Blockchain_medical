@@ -1,0 +1,19 @@
+.homeBox{
+    height: 100vh;
+    display: flex;
+    /* background-color: yellow; */
+
+}
+.homeLeft{
+    flex-basis: 20%;
+    /* background-color: red; */
+    padding: 10px 20px;
+}
+.homeRight{
+    /* background-color: red; */
+    padding: 40px 80px;
+    flex-basis: 80%;
+    height: inherit;
+    overflow-y:scroll ;
+
+}

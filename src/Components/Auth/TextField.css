@@ -1,0 +1,18 @@
+.textFieldInput{
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid rgb(97, 95, 95);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+.textField>p{
+    height: 16px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+
+
+}

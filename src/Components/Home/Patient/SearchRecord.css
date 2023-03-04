@@ -1,0 +1,59 @@
+.searchTop{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+.searchTop>input{
+    padding: 6px 10px;
+    outline: none;
+    border: 1px solid rgb(40, 39, 39);
+    border-radius: 5px;
+}
+.searchButton{
+    cursor: pointer;
+    background-color: blueviolet;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.searchButton>p{
+    color: white;
+    
+}
+.searchTable{
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+.searchRow{
+    display: flex;
+    padding: 15px 20px;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    align-items: center;
+    gap: 20px;
+
+}
+.searchRow>p:nth-child(1){
+    flex-basis: 25%;
+}
+.searchRow>p:nth-child(2){
+    flex-basis: 25%;
+}
+.searchRow>p:nth-child(3){
+    flex-basis: 40%;
+}
+.searchRow>p:nth-child(4){
+
+    flex-basis: 10%;
+}
+.extraRow>p{
+    font-size: 14px;
+    color: rgb(79, 79, 79);
+
+}
+.searchError{
+    float: right;
+    color: red;
+    margin-top: 10px;
+    transition: all 1s ease;
+
+}

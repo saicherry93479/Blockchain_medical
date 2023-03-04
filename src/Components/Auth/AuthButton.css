@@ -1,0 +1,16 @@
+.authButton{
+    padding: 8px 16px;
+    border:  none;
+    background-color: var(--mainColor--);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.authButton>p{
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
